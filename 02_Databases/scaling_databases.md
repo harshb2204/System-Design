@@ -52,6 +52,7 @@ This way, we scale our overall database load.
 - **Note:** Some databases have a proxy that takes care of routing.
 - Each shard can have its own replica (if needed).
 
+![](/diagrams/sharding.png)
 
 
 
