@@ -1,0 +1,1 @@
+This repo contains my notes for topics in the world of designing systems.
