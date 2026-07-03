@@ -1,24 +1,31 @@
 # Everything you need to know about REST
 
 **REST** - Representational State Transfer.
+
 Representation of the entities is central to this Idea.
 In a standard client server architecture Client demands, server serves.
 The response that the server sends is in some representation.(json)
-Everything in REST is a Resource
 
-Entity in your application (service) ~ resource(
-Student, Customer, Message, Video)
+## Core Concepts
 
-REST is just a specification on how your client should be asking things from your server and how your server should respond. It doesnt enforce us to do anything. It suggests you should be doing these things. 
+### Resources and Entities
+
+Everything in REST is a Resource.
+
+Entity in your application (service) ~ resource
+(Student, Customer, Message, Video)
 
 All the data of the application belongs to some entity type (external).
 
 eg: all students are stored in one table        -> storage representation
     all messages are stored in some database    -> does not matter!!
 
-The client asks for some data of some entity type in some representation, and server has to respond
-
+The client asks for some data of some entity type in some representation, and server has to respond.
 That is why the http request we make has a content type header, I am sending you content in some type and I am expecting some content in this type.  
+
+### REST as a Specification
+
+REST is just a specification on how your client should be asking things from your server and how your server should respond. It doesnt enforce us to do anything. It suggests you should be doing these things. 
 
 ## What about representation?
 
